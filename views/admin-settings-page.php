@@ -119,7 +119,7 @@
                   </td>
                 </tr>
               </table>
-              <p class="description"><b>NOTE:</b> Create your payment plans (<a href="https://credosandbox.flutterwave.com/dashboard/payments/plans" target="_blank">Test</a> & <a href="https://credo.flutterwave.com/dashboard/payments/plans" target="_blank">Live</a>) for each intervals stated above if desired and add the payment plan ID to the fields above tied to the interval created. Click the 'checkbox' to enable it for users to see.</p>
+              <p class="description"><b>NOTE:</b> Create your payment plans (<a href="https://credocentral.com" target="_blank">Test</a> & <a href="https://credocentral.com" target="_blank">Live</a>) for each intervals stated above if desired and add the payment plan ID to the fields above tied to the interval created. Click the 'checkbox' to enable it for users to see.</p>
             </td>
           </tr>
           <!-- Modal title -->
