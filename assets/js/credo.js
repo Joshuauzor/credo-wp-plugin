@@ -21,15 +21,15 @@ if (form) {
 var buildConfigObj = function(form) {
     // console.log(form);
     var formData = jQuery(form).data();
-    var amount = formData.amount || jQuery(form).find("#credo-amount").val();
+    var amount = jQuery(form).find("#credo-amount").val() || formData.amount;
     var email =
-        formData.email || jQuery(form).find("#credo-customer-email").val();
+        jQuery(form).find("#credo-customer-email").val() || formData.email;
     var firstname =
-        formData.firstname || jQuery(form).find("#credo-first-name").val();
+        jQuery(form).find("#credo-first-name").val() || formData.firstname;
     var lastname =
-        formData.lastname || jQuery(form).find("#credo-last-name").val();
+        jQuery(form).find("#credo-last-name").val() || formData.lastname;
     var formCurrency =
-        formData.currency || jQuery(form).find("#credo-currency").val();
+        jQuery(form).find("#credo-currency").val() || formData.currency;
     var paymentplanID = jQuery(form).find("#credo-payment-plan").val();
     var txref = "WP_" + form.id.toUpperCase() + "_" + new Date().valueOf();
     var setCountry; //set country
