@@ -24,7 +24,7 @@ Signup for a live credo account at https://credocentral.com and a sandbox accoun
 * Pay Button Secret Key (live/Test) - Enter your secret key which can be retrieved from Settings > API on your Credo account dashboard.
 * Go Live - Tick that section to turn your credo plugin live.
 * Modal Title - (Optional) customize the title of the Pay Modal. Default is CREDO PAY.
-* Modal Description - (Optional) customize the description on the Pay Modal. Default is FLW PAY MODAL.
+* Modal Description - (Optional) customize the description on the Pay Modal. Default is CREDO PAY MODAL.
 * Modal Logo - (Optional) customize the logo on the Pay Modal. Enter a full url (with \'http\'). Default is Credo logo.
 * Success Redirect URL - (Optional) The URL the user should be redirected to after a successful payment. Enter a full url (with 'http:\\'). Default: '\'.
 * Failed Redirect URL - (Optional) The URL the user should be redirected to after a failed payment. Enter a full url (with 'http:\\'). Default: '\'.

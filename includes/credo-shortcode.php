@@ -147,7 +147,7 @@ if (!class_exists('Credo_Shortcode')) {
             global $admin_settings;
 
             if ('yes' !== $admin_settings->get_option_value('theme_style')) {
-                wp_enqueue_style('credo_css', Credo_DIR_URL . 'assets/css/flw.css', false);
+                wp_enqueue_style('credo_css', Credo_DIR_URL . 'assets/css/credo.css', false);
             }
 
         }

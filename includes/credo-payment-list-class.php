@@ -192,7 +192,7 @@
       }
 
       /**
-       * Fetches the payments made through Fluttewave Pay
+       * Fetches the payments made through Credo Pay
        *
        * @param  integer $post_per_page No of posts to show
        * @param  integer $page_number   The current page number
