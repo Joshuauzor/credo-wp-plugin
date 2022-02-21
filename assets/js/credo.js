@@ -91,29 +91,6 @@ const transRef = `iy67f${generateRandomNumber(10, 60)}hvc${generateRandomNumber(
   90
 )}`;
 
-// function makePayment(data) {
-//     // console.log(credo_options.cb_url)
-//     CredoCheckout({
-//         transRef, //Please generate your own transRef that is unique for each transaction
-//         amount: data.amount,
-//         redirectUrl: credo_options.cb_url,
-//         paymentOptions: ["CARDS", "BANK"],
-//         currency: data.currency,
-//         customerName: data.customer_firstname + ' ' + data.customer_lastname,
-//         customerEmail: data.customer_email,
-//         customerPhoneNo: data.phone,
-//         onClose: function() {
-//             redirectTo(redirectUrl);
-//         },
-//         callback: function() {
-//             console.log('call back');
-//             alert('stop');
-//             // sendPaymentRequestResponse(res, data);
-//         },
-//         publicKey: data.PBFPubKey // You should store your API key as an environment variable
-//     });
-// }
-
 function makePayment(data) {
     CredoCheckout({
         transRef, //Please generate your own transRef that is unique for each transaction
@@ -157,8 +134,6 @@ var sendPaymentRequestResponse = function(res, form) {
     jQuery.post(credo_options.cb_url, dataObj).success(function(data) {
         var response = JSON.parse(data);
         redirectUrl = response.redirect_url;
-        // console.log(redirectUrl);
-        // console.log("stop");
         if (redirectUrl === "") {
             var responseMsg =
                 res.tx.paymentType === "account" ?
