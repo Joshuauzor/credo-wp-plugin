@@ -65,24 +65,24 @@ With attributes and button text: email, amount
 
 With currency
 
-[credo-pay-button custom_currency="NGN,USD"]
+[credo-pay-button custom_currency="NGN"]
 
 With attributes: email or use_current_user_email with value "yes", amount and currency
-[credo-pay-button amount="1290" email="joshuauzor@gmail.com" custom_currency= "NGN, USD" ]
+[credo-pay-button amount="1290" email="joshuauzor@gmail.com" custom_currency= "NGN" ]
 
 or
 
-[credo-pay-button amount="1290" use_current_user_email="yes" custom_currency= "NGN, USD" ]
+[credo-pay-button amount="1290" use_current_user_email="yes" custom_currency= "NGN" ]
 
 With currency:
-[credo-pay-button custom_currency="NGN,USD"]
+[credo-pay-button custom_currency="NGN"]
 
 With attributes: email or use_current_user_email with value "yes", amount and currency
-[credo-pay-button amount="1290" email="joshuauzor@gmail.com" custom_currency= "NGN, USD" ]
+[credo-pay-button amount="1290" email="joshuauzor@gmail.com" custom_currency= "NGN" ]
 
 or
 
-[credo-pay-button amount="1290" use_current_user_email="yes" custom_currency= "NGN, USD" ]
+[credo-pay-button amount="1290" use_current_user_email="yes" custom_currency= "NGN" ]
 
 
 On the "Form Settings" dialog, fill in the form attributes and click "Save Changes".
